@@ -14,11 +14,15 @@ const _layout = () => {
                 title:'HOME page '
             }} />
 
-            <Stack.Screen  name='register/index'  options={{
+            <Stack.Screen  name='register'  options={{
                 title:'Register ',
-                headerRight: () =>(
-                   <Button title='Login' onPress={()=>{router.push('Login')}} />
+                headerRight:()=>(
+                    <>
+
+                            <Button title='Login' onPress={()=>{router.push('Login')}} />
+                    </>
                 )
+  
             }}/>
 
             <Stack.Screen  name='[missing]'  options={{

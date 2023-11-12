@@ -1,7 +1,11 @@
 import { StyleSheet, Text,View } from 'react-native'
 import { Link } from 'expo-router'
 import React from 'react'
-import { Button } from 'react-native-elements'
+import { Button } from 'react-native-elements';
+
+import 'react-native-url-polyfill/auto'
+
+
 
 const Index = () => {
   return (
